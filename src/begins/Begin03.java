@@ -1,7 +1,7 @@
 package begins;
  import java.util.Scanner;
 
-public class begin03 {
+public class Begin03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("To'rtburchakning a tomonini kiriting: ");

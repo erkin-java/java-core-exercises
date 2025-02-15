@@ -1,7 +1,7 @@
 package begins;
  import java.util.Scanner;
 
-public class begin17 {
+public class Begin18 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,10 +10,10 @@ public class begin17 {
         double C = scanner.nextDouble();
 
         double AC = Math.abs(C - A);
-        double BC = Math.abs(C - B);
-        double sum = AC + BC;
+        double BC = Math.abs(B - C);
+        double product = AC * BC;
 
-        System.out.println( AC+ " "+ BC + " " +sum);
+        System.out.println(product);
 
         scanner.close();
     }

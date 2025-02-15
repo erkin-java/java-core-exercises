@@ -1,7 +1,7 @@
 package begins;
  import java.util.Scanner;
 
-public class begin11 {
+public class Begin11 {
     public class begin {
         public static void main(String[] args) {
             // Scanner obyekti orqali foydalanuvchidan a va b sonlarini olish
